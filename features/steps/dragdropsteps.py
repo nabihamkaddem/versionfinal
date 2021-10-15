@@ -17,4 +17,4 @@ def step_impl(context):
 def step_impl(context):
     context.dd.drop()
     msg = context.dd.drop()
-    assert_equal(msg, "Drped!")
+    assert_equal(msg, "Dropped!")
